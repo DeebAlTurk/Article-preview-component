@@ -64,7 +64,7 @@ body{
 }
 #socialMediaPC{
     background-color: #475368;
-    display: inline;
+    display: none;
     color: gray;
     height: auto;
     padding: 10px;
