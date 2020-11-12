@@ -1,0 +1,125 @@
+    /*@font-face {*/
+    /*  font-family: manrope;*/
+    /*  src: url(https://fonts.google.com/specimen/Manrope);*/
+    /*}*/
+body{
+    /*font-family: manrope;*/
+    background-color:#e4e9ee ;
+}
+.main-wrapper{
+    display: flex;
+    width: 700px;
+    height: 270px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: black 9px 13px 39px -28px !important;
+    position: absolute;
+    top: 33%;
+    left: 27%;
+}
+.col1{
+    flex:40% ;
+    background-image: url("images/drawers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.col2{
+    flex: 60%;
+    margin-left: 25px;
+    margin-right: 10px;
+    color: hsl(217, 19%, 35%);
+}
+.col2 > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info{
+    margin-top: 30px;
+}
+.avatar{
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 12px;
+}
+#share{
+    background-color: #e8edf5;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 110px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.name{
+    position: relative;
+    top: -22px;
+    font-weight: bold;
+    font-size: 95%;
+}
+.date{
+    position: relative;
+    left: -121px;
+    font-size: 70%;
+    color: rgba(128, 128, 128, 0.97);
+}
+#socialMediaPC{
+    background-color: #475368;
+    display: inline;
+    color: gray;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 300px;
+    left: 930px;
+}
+#socialMediaPhone{
+    background-color: #475368;
+    display: none;
+    color: gray;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -88px;
+    left: 278px;}
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    .main-wrapper{
+        display: block;
+        width: 300px;
+        height: auto;
+        top: 5%;
+        left: 8%;
+    }
+    .col1{
+        display: block;
+        height: 250px;
+    }
+    .col2{
+        display: block;
+    }
+    #socialMediaPhone{
+        margin: 0;
+        display: none;
+        top: 0;
+        left: 0;
+        margin-top: 10px;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+    }
+    #share{
+        margin-bottom:5px;
+    }
+    .main-wrapper{
+        margin-bottom: 30px;
+    }
+}
